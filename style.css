@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#connectWallet {
+  background: #9f6bff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.token-list {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.token-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+.token-card h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.token-card button {
+  background: #00ffa0;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #121212;
+  font-size: 0.9rem;
+}
