@@ -1,2 +1,10 @@
+# Ignore build output
+.next
+
+# Ignore dependencies
 node_modules
+
+# Optional extras
+*.log
+.DS_Storenode_modules
 .next
